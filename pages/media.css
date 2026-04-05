@@ -1,0 +1,13 @@
+/* Планшет */
+@media (max-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Телефон */
+@media (max-width: 700px) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

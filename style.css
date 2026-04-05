@@ -1,0 +1,72 @@
+body {
+  background-color: #e1e1e6;
+}
+
+h1 {
+  color: #003366;
+}
+
+h2 {
+  color: #003366;
+}/*# sourceMappingURL=style.css.map */
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #f4f3f8;
+  text-align: center;
+}
+
+h1 {
+  color: darkblue;
+  text-transform: uppercase;
+}
+.about {
+    background-color: lightgray;
+    padding: 20px;
+    width: 60%;   /* або 500px */
+    margin: 20px auto;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.card h2 {
+    margin: 0.5rem 0;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
+
+
+

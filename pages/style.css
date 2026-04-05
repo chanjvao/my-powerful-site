@@ -1,0 +1,59 @@
+.progress-bar {
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin: 5px 0 15px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.creativity {
+    width: 80%;
+    background: purple;
+    animation: fillUp 1s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+
+.logic {
+    width: 70%;
+    background: darkblue;
+    animation: fillUp 1s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+
+.dramas {
+    width: 95%;
+    background: hotpink;
+    animation: fillUp 2s ease-out;
+  animation-delay: 1s;
+  animation-fill-mode: backwards;
+}
+
+.speed {
+    width: 85%;
+    background: orange;
+    animation: fillUp 1s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+
+}
+
+.emotions {
+    width: 90%;
+    background: crimson;
+    animation: fillUp 4s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+@keyframes fillUp {
+  0% { 
+    width: 0%; 
+  }
+}
